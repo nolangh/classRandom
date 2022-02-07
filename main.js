@@ -1,5 +1,3 @@
-let obj = {
-  boolean: false,
-  number: 10,
-  string: "this is a string",
-};
+"use strict";
+
+const myHeader = document.getElementById("header");
