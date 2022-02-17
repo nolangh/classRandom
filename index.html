@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/style.css" rel="stylesheet" />
-    <script defer src="/main.js"></script>
-    <title>Calculator</title>
+    <script src="/main.js" defer></script>
+    <title>array list ish</title>
   </head>
   <body>
     <h1 id="header">my Header</h1>
-    <input type="number" id="inpt" />
-    <button id="btn">Submit</button>
-    <p id="output"></p>
+    <input id="itemInput" />
+    <button id="btn" onclick="add()">Submit</button>
+    <div class="outPutDiv">
+      <ul class="outPut_ul" id="ul">
+        <li class="ul_li" id="li"></li>
+      </ul>
+    </div>
   </body>
 </html>
