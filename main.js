@@ -44,7 +44,7 @@ let cart = (function () {
 <<<<<<< HEAD
 */
 
-const list = []; // set an empty array
+/* const list = []; // set an empty array
 
 function add() {
   const input = document.getElementById("itemInput").value; //this grabs the value from the input
@@ -56,7 +56,5 @@ function add() {
 function displayList() {
   let itemList = ""; //This function loops through the array "list" and displays the li
   list.forEach((item) => (itemList += `<li>${item}</li>`));
-}
-=======
->>>>>>> 84a8b02ce9c67002dd1397933e5e15ec20a65e31
->>>>>>> 52356107cde60cf169f67d566ded749eab627207
+} */
+
