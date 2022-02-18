@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 /* let cart = (function () {
-=======
-<<<<<<< HEAD
 function length(...word) {
   let longestWord = "";
   for (let i = 0; i < word.length; i++) {
@@ -16,9 +13,7 @@ console.log(length("the", "dog", "has", "fleas"));
 function fact(n) {
   
 }
-=======
 let cart = (function () {
->>>>>>> 52356107cde60cf169f67d566ded749eab627207
   let cartItems = []; //product structure { name:"name", price:10.00}
   let cartTotal = 0;
   return {
@@ -41,7 +36,6 @@ let cart = (function () {
     },
   };
 })();
-<<<<<<< HEAD
 */
 
 /* const list = []; // set an empty array
@@ -58,3 +52,18 @@ function displayList() {
   list.forEach((item) => (itemList += `<li>${item}</li>`));
 } */
 
+// TODO: work on classes. slide to note start at #16
+
+class lists {
+  constructor(name, id, tasks) {
+    this.name = name;
+    this.id = id;
+    this.tasks = tasks;
+  }
+  addTask() {}
+  rename() {}
+}
+
+class Tasks {
+  constructor() {}
+}
