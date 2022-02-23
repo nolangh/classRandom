@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-function length(...word) {
-  let longestWord = "";
-  for (let i = 0; i < word.length; i++) {
-    if (longestWord.length < word[i].length) {
-      longestWord = word[i];
-    }
-  }
-  return longestWord;
-}
-console.log(length("the", "dog", "has", "fleas"));
-
-function fact(n) {
-  
-}
-=======
 let cart = (function () {
   let cartItems = []; //product structure { name:"name", price:10.00}
   let cartTotal = 0;
@@ -37,4 +21,3 @@ let cart = (function () {
     },
   };
 })();
->>>>>>> 84a8b02ce9c67002dd1397933e5e15ec20a65e31
