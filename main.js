@@ -1,69 +1,17 @@
-/* let cart = (function () {
-function length(...word) {
-  let longestWord = "";
-  for (let i = 0; i < word.length; i++) {
-    if (longestWord.length < word[i].length) {
-      longestWord = word[i];
-    }
-  }
-  return longestWord;
-}
-console.log(length("the", "dog", "has", "fleas"));
+/*For this exercise, create regex that will allow the user to enter a phone number. 
+When the user presses the "Validation" button, the script checks the validity of the number. 
+If the number is valid (matches the character sequence specified by the regular expression), 
+the script shows a message thanking the user and confirming the number. If the number is invalid, 
+the script informs the user that the phone number is not valid.
+ */
 
-function fact(n) {
-  
-}
-let cart = (function () {
-  let cartItems = []; //product structure { name:"name", price:10.00}
-  let cartTotal = 0;
-  return {
-    getTotal: function () {
-      return cartTotal;
-    },
-    getItems: function () {
-      return cartItems;
-    },
-    getItemsCount: function () {
-      cartItems.length;
-    },
-    addItem: function (item) {
-      cartItems.push;
-      cartTotal += item.price;
-    },
-    removeItem: function (item) {
-      cartItem = cartItems.filter((anItem) => anItem.name != item.name);
-      carTotal -= item.price;
-    },
-  };
-})();
-*/
+const input = document.getElementById("phone", value);
+const test = /\(?\d{3}\)?\?:( |-)\d{3}\-?\d{4}/;
 
-/* const list = []; // set an empty array
-
-function add() {
-  const input = document.getElementById("itemInput").value; //this grabs the value from the input
-  console.log(input);
-  list.push(input); // this adds the
-  displayList(); //this calls displayList function
-}
-
-function displayList() {
-  let itemList = ""; //This function loops through the array "list" and displays the li
-  list.forEach((item) => (itemList += `<li>${item}</li>`));
-} */
-
-// TODO: work on classes. slide to note start at #16
-
-class lists {
-  constructor(name, id, tasks) {
-    this.name = name;
-    this.id = id;
-    this.tasks = tasks;
-  }
-  addTask() {}
-  rename() {}
-}
-
-class Tasks {
-  constructor() {}
+function phoneNumber() {
+	let num = test.exec(input);
+	if (ran == true) {
+		alert("true");
+	}
+	alert("false");
 }
