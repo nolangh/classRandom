@@ -24,3 +24,13 @@ function displayPokemon(pokemon) {
 	});
 	document.querySelector("#pokemon").innerHTML = pokemonHtml;
 }
+
+/* -------------------------- ANCHOR Basic Rest API Syntax ------------------------- */
+/**
+ * GET /Candy - all the candy
+ * GET /candy/snickers - for one specefic candy
+ * GET /candy/type/chocolate - for all chcoclate candy
+ * POST /candy/twinSnakes - create new candy called twinSnakes
+ * PUT /candy/twinSnakes - replaces old twinSnakes
+ * DELETE /candy/twinSnakes - Delets twinSnakes
+ */
