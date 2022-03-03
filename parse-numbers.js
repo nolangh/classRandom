@@ -5,6 +5,7 @@ function parseNmbers(...x) {
 			parsed.push(Number(x));
 		}
 	});
+	return parsed;
 }
 
 console.log(parseNmbers("15", "34", "12"));
