@@ -24,5 +24,6 @@ describe("parseNumber", () => {
 		expect(result[2]).toBe(12);
 	});
 	//Test 4
+
 	//Test 5
 });
