@@ -1,7 +1,7 @@
-describe("parseNumbers", () => {
+describe("parseNumber", () => {
 	//Test 1
 	it("Should Return an empty array if Parameters are not parsable", () => {
-		const result = parseNUmbers("ty", "0p", "yu", "9L");
+		const result = parseNumber("ty", "0p", "yu", "9L");
 
 		expect(result).toBeDefined();
 		expect(typeof result).toBe("object");
@@ -24,5 +24,6 @@ describe("parseNumbers", () => {
 		expect(result[2]).toBe(12);
 	});
 	//Test 4
+
 	//Test 5
 });
