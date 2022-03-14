@@ -44,7 +44,18 @@ class LinkedList {
 		}
 	}
 
-	contains(key) {}
+	contains(key) {
+		//finds if a key value is in the linked list
+		let current = this.head;
+		while (current != null) {
+			if (current.element.key == key) {
+				return current.element;
+			} else {
+				current = current.next;
+			}
+		}
+		return null;
+	}
 
 	remove() {
 		//
