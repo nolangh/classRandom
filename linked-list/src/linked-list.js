@@ -11,10 +11,6 @@ class LinkedList {
 		this.size = 0;
 	}
 
-	//Head
-	//Down
-	// 4 -> null
-
 	insert(element) {
 		if (this.head == null) {
 			this.head = new LinkedListNode(element);
